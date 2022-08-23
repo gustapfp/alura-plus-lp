@@ -1,0 +1,73 @@
+:root {
+    --background-cor: #00030C;
+    --botao-azul-background: #167BF7;
+    --branco: #FFFFFF;
+    --cinza-secundario: #C0C0C0;
+    --fonte: "Inter"
+}
+
+body {
+    background-color: var(--background-cor);
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--fonte);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+
+
+.principal{
+    background-image: url("img/Background-instrturoes.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: center;
+    text-align: center;
+}
+
+.container {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+.botao{
+    padding: 1em;
+    border-radius: 8px;
+    color: var(--branco);
+    text-decoration: none;
+    margin-bottom: 1em;
+    display: block;
+    margin-bottom: 1em;
+
+}
+
+.botao-azul{
+    background-color: var(--botao-azul-background);
+}
+.botao-transparente {
+    border-color: var(--branco) ;
+    border: 2px solid var(--branco);   
+}
+
+.container-aviso {
+    font-size: 12px;
+}
+
+.titulo-combo{
+    font-size: 28px;
+    font-weight: 700
+}
+
+.container-imagem{
+    margin: 1em 0 2em 0;    
+}
+
+.combo-alura{
+  
+    margin: 0 6em;
+    }
